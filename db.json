@@ -1,8 +1,109 @@
 {
-    "locales": [
-      {
-        "id": 1,
-        "language": "en-US"
-      }
+  "/inventory/recurring": {
+    "data": [
+        {
+            "id": "91:999",
+            "price": 49.99,
+            "name": "UNLIMITED FULL SERVICE HOT WAX",
+            "sku": "1542221450",
+            "lprEnabled": false,
+            "canBeUpgraded": true,
+            "canBeCancelled": false,
+            "isAnnual": false,
+            "applicableWash": "FS-HOT WAX",
+            "redemptionIsUnlimited": false,
+            "redemptionLimit": null,
+            "hasTrial": false,
+            "trialPrice": null,
+            "trialLength": null,
+            "frequencyLimit": 2,
+            "frequencyLimitType": "day",
+            "locations": [
+                {
+                    "siteCode": "DEF",
+                    "taxRate": 0.07
+                }
+            ]
+        },
+        {
+            "id": "699:999",
+            "price": 59.99,
+            "name": "UNLIMITED FULL SERVICE CERAMIC SEALANT",
+            "sku": "1566571282",
+            "lprEnabled": false,
+            "canBeUpgraded": true,
+            "canBeCancelled": true,
+            "isAnnual": false,
+            "applicableWash": "CERAMIC SEALANT",
+            "redemptionIsUnlimited": false,
+            "redemptionLimit": null,
+            "hasTrial": false,
+            "trialPrice": null,
+            "trialLength": null,
+            "frequencyLimit": 2,
+            "frequencyLimitType": "day",
+            "locations": [
+                {
+                    "siteCode": "DEF",
+                    "taxRate": 0.07
+                }
+            ]
+        },
+        {
+            "id": "73:999",
+            "price": 19.99,
+            "name": "Unlimited Exterior WASH & GO",
+            "sku": "1542216971",
+            "lprEnabled": false,
+            "canBeUpgraded": true,
+            "canBeCancelled": true,
+            "isAnnual": false,
+            "applicableWash": "WASH AND GO",
+            "redemptionIsUnlimited": false,
+            "redemptionLimit": null,
+            "hasTrial": false,
+            "trialPrice": null,
+            "trialLength": null,
+            "frequencyLimit": 5,
+            "frequencyLimitType": "day",
+            "locations": [
+                {
+                    "siteCode": "DEF",
+                    "taxRate": 0.07
+                }
+            ]
+        },
+        {
+            "id": "75:999",
+            "price": 29.99,
+            "name": "Unlimited Exterior HOT WAX",
+            "sku": "1542217746",
+            "lprEnabled": false,
+            "canBeUpgraded": true,
+            "canBeCancelled": false,
+            "isAnnual": false,
+            "applicableWash": "EXT HOT WAX",
+            "redemptionIsUnlimited": false,
+            "redemptionLimit": null,
+            "hasTrial": false,
+            "trialPrice": null,
+            "trialLength": null,
+            "frequencyLimit": 3,
+            "frequencyLimitType": "day",
+            "locations": [
+                {
+                    "siteCode": "DEF",
+                    "taxRate": 0.07
+                }
+            ]
+        }
     ]
+},
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}
