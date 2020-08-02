@@ -97,7 +97,7 @@
             ]
         }
     ],
-  "inventory/giftcard": [
+  "inventory-giftcard": [
         {
             "id": "1",
             "bonus": 0,
@@ -127,7 +127,7 @@
             ]
         }
     ],
-  "inventory/washbook": [
+  "inventory-washbook": [
         {
             "id": "1",
             "name": "FULL SERVICE Wheels & Shine 6 PACK",
@@ -161,7 +161,7 @@
             ]
         }
     ],
-  "inventory/prepaid-wash": [],
+  "inventory-prepaidwash": [],
   "locations": [
         {
             "name": "Coral Springs Car Wash",
