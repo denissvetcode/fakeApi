@@ -1,8 +1,7 @@
 {
-  "inventory-recurring": {
-    "data": [
+  "inventory-recurring": [
         {
-            "id": "91:999",
+            "id": "1",
             "price": 49.99,
             "name": "UNLIMITED FULL SERVICE HOT WAX",
             "sku": "1542221450",
@@ -26,7 +25,7 @@
             ]
         },
         {
-            "id": "699:999",
+            "id": "2",
             "price": 59.99,
             "name": "UNLIMITED FULL SERVICE CERAMIC SEALANT",
             "sku": "1566571282",
@@ -50,7 +49,7 @@
             ]
         },
         {
-            "id": "73:999",
+            "id": "3",
             "price": 19.99,
             "name": "Unlimited Exterior WASH & GO",
             "sku": "1542216971",
@@ -74,7 +73,7 @@
             ]
         },
         {
-            "id": "75:999",
+            "id": "4",
             "price": 29.99,
             "name": "Unlimited Exterior HOT WAX",
             "sku": "1542217746",
@@ -97,13 +96,98 @@
                 }
             ]
         }
+    ],
+  "inventory/giftcard": [
+        {
+            "id": "1",
+            "bonus": 0,
+            "max": 25,
+            "price": 25,
+            "name": "$25 GIFT CARD",
+            "sku": "1544288985",
+            "locations": [
+                {
+                    "siteCode": "DEF",
+                    "taxRate": null
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "bonus": 0,
+            "max": 50,
+            "price": 50,
+            "name": "$50 GIFT CARD",
+            "sku": "1544289050",
+            "locations": [
+                {
+                    "siteCode": "DEF",
+                    "taxRate": null
+                }
+            ]
+        }
+    ],
+  "inventory/washbook": [
+        {
+            "id": "1",
+            "name": "FULL SERVICE Wheels & Shine 6 PACK",
+            "sku": "1545941847",
+            "price": 67.96,
+            "redemptionLimit": 6,
+            "applicableWash": "FS-WHEELS&SHINE",
+            "frequencyLimit": null,
+            "frequencyLimitType": "unlimited",
+            "locations": [
+                {
+                    "siteCode": "DEF",
+                    "taxRate": 0.07
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Exterior HOT WAX 6 Pack",
+            "sku": "1545942148",
+            "price": 59.96,
+            "redemptionLimit": 6,
+            "applicableWash": "EXT HOT WAX",
+            "frequencyLimit": null,
+            "frequencyLimitType": "unlimited",
+            "locations": [
+                {
+                    "siteCode": "DEF",
+                    "taxRate": 0.07
+                }
+            ]
+        }
+    ],
+  "inventory/prepaid-wash": [],
+  "locations": [
+        {
+            "name": "Coral Springs Car Wash",
+            "address": {
+                "address1": "23233 Wiles Rd",
+                "address2": null,
+                "city": "Coral Springs",
+                "state": "FL",
+                "postalCode": "33076",
+                "phone": "32323232"
+            },
+            "siteCode": "DEF",
+            "taxRates": [
+                {
+                    "name": "DEFAULT TAX",
+                    "rate": 0.07
+                },
+                {
+                    "name": "",
+                    "rate": 0
+                },
+                {
+                    "name": "",
+                    "rate": 0
+                }
+            ]
+        }
     ]
-},
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
 }
